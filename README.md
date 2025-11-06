@@ -17,32 +17,34 @@ It allows users to **sign up, log in, or continue as a guest**, then create styl
 
 ---
 
-##  Folder Structure
+## Folder Structure
 
+```
 countdown-timer-app/
 │
 ├── backend/
-│ ├── server.js
-│ ├── package.json
-│ ├── .env
-│ ├── config/
-│ ├── controllers/
-│ ├── routes/
-│ ├── models/
-│ ├── middleware/
-│ └── utils/
+│   ├── server.js
+│   ├── package.json
+│   ├── .env
+│   ├── config/
+│   ├── controllers/
+│   ├── routes/
+│   ├── models/
+│   ├── middleware/
+│   └── utils/
 │
 ├── frontend/
-│ ├── vite.config.js
-│ ├── package.json
-│ ├── public/
-│ └── src/
-│ ├── components/
-│ ├── pages/
-│ ├── helpers/
-│ └── styles/
+│   ├── vite.config.js
+│   ├── package.json
+│   ├── public/
+│   └── src/
+│       ├── components/
+│       ├── pages/
+│       ├── helpers/
+│       └── styles/
 │
 └── README.md
+```
 
 ##  Tech Stack
 
