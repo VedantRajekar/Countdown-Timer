@@ -59,61 +59,101 @@ countdown-timer-app/
 ---
 
 ##  Setup Instructions
-### 
-```bash
-1️ Clone the repository
-git clone (https://github.com/VedantRajekar/Countdown-Timer)
-cd countdown-timer-app
 
-2️ Setup Backend
+### 1️ Clone the Repository
+```bash
+git clone https://github.com/VedantRajekar/Countdown-Timer
+cd countdown-timer-app
+```
+
+### 2️ Setup Backend
+```bash
 cd backend
 npm install
-= Create a .env file inside backend/ and add:
+```
+Create a `.env` file inside `backend/` and add:
+```env
 PORT=5000
 MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_secret_key
+```
 Then run:
+```bash
 npm run dev
+```
 
-3️.Setup Frontend
+### 3️ Setup Frontend
 Open another terminal:
+```bash
 cd frontend
 npm install
 npm run dev
-Frontend will start on http://localhost:5173
+```
+Frontend will start on:  
+ **http://localhost:5173**
 
-= UI Highlights
- Modern, elegant homepage design
- Animated circular countdown timers
- Responsive layout for all screen sizes
- Eye-catching color transitions and gradients
- Smooth hover effects on all buttons
+---
 
-= Key Modules
-- helper.js
+## UI Highlights
+
+- Elegant and modern homepage  
+- Animated circular countdown timers  
+- Responsive layout for all screen sizes  
+- Eye-catching gradients and transitions  
+- Smooth hover effects on interactive elements  
+
+---
+
+## Key Modules
+
+### `helper.js`
 Contains utility functions for:
-Time formatting (HH:MM:SS)
-Event logging
-Countdown color transitions
- -Countdown Component
-Implements circular countdown with smooth animation using JavaScript setInterval().
+- Time formatting (`HH:MM:SS`)
+- Event logging
+- Countdown color transitions
 
-= Screenshots
-Landing Page:
-<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/c0edc77c-77fa-406a-8001-1672d633244a" />
-Dashboard:
-<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/a980a151-2241-4a2f-96f9-406bfba49e49" />
+### `Countdown Component`
+Implements smooth circular countdown using `setInterval()` with live animation updates.
 
-Developed by
-Vedant Rajekar[23070521113] (B.Tech CSE, Symbiosis Institute of Technology, Nagpur)
+---
 
-How to Run in One Go
-If you want to start both frontend and backend together (optional setup):
-Install concurrently:
+## Screenshots
+
+**Landing Page:**  
+<img width="1919" height="1079" alt="Landing Page" src="https://github.com/user-attachments/assets/c0edc77c-77fa-406a-8001-1672d633244a" />
+
+**Dashboard:**  
+<img width="1919" height="1079" alt="Dashboard" src="https://github.com/user-attachments/assets/a980a151-2241-4a2f-96f9-406bfba49e49" />
+
+---
+
+##  Developed By
+
+**Vedant Rajekar [23070521113]**  
+_B.Tech CSE, Symbiosis Institute of Technology, Nagpur_
+
+---
+
+##  Run Frontend & Backend Together (Optional)
+
+If you want to start both servers at once, install `concurrently`:
+
+```bash
 npm install concurrently
-Add this script in root package.json:
+```
+
+Then add this script in your **root** `package.json`:
+```json
 "scripts": {
   "dev": "concurrently \"npm run dev --prefix backend\" \"npm run dev --prefix frontend\""
 }
-Then just run:
+```
+
+Run both:
+```bash
 npm run dev
+```
+
+---
+
+**Star this repo** if you like the project!
