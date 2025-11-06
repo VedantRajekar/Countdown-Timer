@@ -1,4 +1,4 @@
-# ⏱️ Countdown Timer App (Full Stack)
+#  Countdown Timer App (Full Stack)
 
 A **modern full-stack countdown timer website** built using **React (Vite)** and **Node.js + Express + MongoDB**.  
 It allows users to **sign up, log in, or continue as a guest**, then create stylish countdowns for upcoming events with animated timers and a sleek interface.
@@ -44,7 +44,7 @@ countdown-timer-app/
 │
 └── README.md
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 | Layer       | Technology Used |
 |--------------|----------------|
@@ -56,10 +56,10 @@ countdown-timer-app/
 
 ---
 
-## ⚙️ Setup Instructions
-
-### 1️ Clone the repository
+##  Setup Instructions
+### 
 ```bash
+1️ Clone the repository
 git clone (https://github.com/VedantRajekar/Countdown-Timer)
 cd countdown-timer-app
 
